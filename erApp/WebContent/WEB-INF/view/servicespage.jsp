@@ -7,6 +7,13 @@
 <title>Services</title>
 </head>
 <body>
-<form action="addService" method="GET">
+<form action="/ServicesServlet" method="POST">
+<h2>Select a Service</h2>
+<button class="btn /adduniversity">Add University</button>
+<button class= "btn /addservice">Add Service</button>
+<button class="btn /addstudent">Add Student</button>
+<button class = "btn /deletestudent">Delete Student</button>
+<button class = "btn /deleteuniversity">Delete University</button>
+</form>
 </body>
 </html>
